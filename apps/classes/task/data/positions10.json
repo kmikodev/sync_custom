@@ -1,0 +1,766 @@
+[
+    {
+        "mt_user_id": "314587",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "339937",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "134087",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "139526",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "334852",
+        "broker": "matchtrader",
+        "positions": [
+            {
+                "clientId": "334852",
+                "openTime": "1700140582831",
+                "instrument": "BTCUSD",
+                "volume": "4",
+                "openPrice": "3692851",
+                "profit": "-2177",
+                "commission": "18",
+                "swap": "-123",
+                "margin": "1477",
+                "rMask": {
+                    "orderUpdateId": "1699084976112516571",
+                    "simple": {
+                        "clientId": "334852",
+                        "internalOrderId": "1699084975971620392",
+                        "clientOrderId": "W989122965546514",
+                        "symbol": "BTCUSD",
+                        "ordType": 2,
+                        "tif": 3,
+                        "expiration": "0",
+                        "volume": "4",
+                        "limitPrice": "3693000",
+                        "stopPrice": "0",
+                        "trailDistance": "0",
+                        "fragmentation": "0",
+                        "pegOffset": "0",
+                        "isPeg": false,
+                        "tpPrice": "4000000",
+                        "slPrice": "3538000",
+                        "comment": ""
+                    },
+                    "receivedTime": "1700076756343",
+                    "requestStatus": 1,
+                    "orderStatus": 4,
+                    "partialVolume": "4",
+                    "lastPrice": "3692851",
+                    "lastUpdated": "1700140582831",
+                    "matchedWith": "0",
+                    "matchedWithLP": true,
+                    "originalPrice": "0",
+                    "systemComment": "",
+                    "notionalValue": "147714",
+                    "originalOrderType": 2,
+                    "orderProcessingDelay": "0",
+                    "spread": 0
+                },
+                "calculationPrice": "3638416",
+                "usd2ClientCurrency": "NOT_SET",
+                "usd2ClientConversion": "0",
+                "usd2ClientDigits": "5",
+                "id": "6960728135539180056"
+            }
+        ]
+    },
+    {
+        "mt_user_id": "133896",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "133666",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "133373",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "132595",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "130587",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "132207",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "134039",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "331789",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "131528",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "340790",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "341034",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "339434",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "341845",
+        "broker": "matchtrader",
+        "positions": [
+            {
+                "clientId": "341845",
+                "openTime": "1700209363165",
+                "instrument": "EURUSD",
+                "volume": "50000",
+                "openPrice": "108352",
+                "profit": "6450",
+                "commission": "75",
+                "swap": "0",
+                "margin": "54175",
+                "rMask": {
+                    "orderUpdateId": "1699084976289944924",
+                    "simple": {
+                        "clientId": "341845",
+                        "internalOrderId": "1699084976289944915",
+                        "clientOrderId": "M989122965577194",
+                        "symbol": "EURUSD",
+                        "ordType": 0,
+                        "tif": 0,
+                        "expiration": "0",
+                        "volume": "50000",
+                        "limitPrice": "0",
+                        "stopPrice": "0",
+                        "trailDistance": "0",
+                        "fragmentation": "0",
+                        "pegOffset": "0",
+                        "isPeg": false,
+                        "tpPrice": "108600",
+                        "slPrice": "108355",
+                        "comment": ""
+                    },
+                    "receivedTime": "1700209363159",
+                    "requestStatus": 1,
+                    "orderStatus": 4,
+                    "partialVolume": "50000",
+                    "lastPrice": "108352",
+                    "lastUpdated": "1700209363165",
+                    "matchedWith": "0",
+                    "matchedWithLP": true,
+                    "originalPrice": "0",
+                    "systemComment": "",
+                    "notionalValue": "5417500",
+                    "originalOrderType": 0,
+                    "orderProcessingDelay": "0",
+                    "spread": 0
+                },
+                "calculationPrice": "108481",
+                "usd2ClientCurrency": "NOT_SET",
+                "usd2ClientConversion": "0",
+                "usd2ClientDigits": "5",
+                "id": "-5224648299476259473"
+            }
+        ]
+    },
+    {
+        "mt_user_id": "341449",
+        "broker": "matchtrader",
+        "positions": [
+            {
+                "clientId": "341449",
+                "openTime": "1700163030833",
+                "instrument": "BTCUSD",
+                "volume": "100",
+                "openPrice": "3568615",
+                "profit": "69678",
+                "commission": "446",
+                "swap": "-2974",
+                "margin": "35686",
+                "rMask": {
+                    "orderUpdateId": "1699084976195728421",
+                    "simple": {
+                        "clientId": "341449",
+                        "internalOrderId": "1699084975856650659",
+                        "clientOrderId": "W989122965531570",
+                        "symbol": "BTCUSD",
+                        "ordType": 2,
+                        "tif": 3,
+                        "expiration": "0",
+                        "volume": "100",
+                        "limitPrice": "3569100",
+                        "stopPrice": "0",
+                        "trailDistance": "0",
+                        "fragmentation": "0",
+                        "pegOffset": "0",
+                        "isPeg": false,
+                        "tpPrice": "3702000",
+                        "slPrice": "3520000",
+                        "comment": ""
+                    },
+                    "receivedTime": "1700041401568",
+                    "requestStatus": 1,
+                    "orderStatus": 4,
+                    "partialVolume": "100",
+                    "lastPrice": "3568615",
+                    "lastUpdated": "1700163030833",
+                    "matchedWith": "0",
+                    "matchedWithLP": true,
+                    "originalPrice": "0",
+                    "systemComment": "",
+                    "notionalValue": "3568615",
+                    "originalOrderType": 2,
+                    "orderProcessingDelay": "0",
+                    "spread": 0
+                },
+                "calculationPrice": "3638293",
+                "usd2ClientCurrency": "NOT_SET",
+                "usd2ClientConversion": "0",
+                "usd2ClientDigits": "5",
+                "id": "7211491477845197950"
+            }
+        ]
+    },
+    {
+        "mt_user_id": "342615",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "134047",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "261613",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "268380",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "268625",
+        "broker": "matchtrader",
+        "positions": [
+            {
+                "clientId": "268625",
+                "openTime": "1700210500319",
+                "instrument": "EURUSD",
+                "volume": "25000",
+                "openPrice": "108406",
+                "profit": "1875",
+                "commission": "0",
+                "swap": "0",
+                "margin": "27101",
+                "rMask": {
+                    "orderUpdateId": "1699084976293483498",
+                    "simple": {
+                        "clientId": "268625",
+                        "internalOrderId": "1699084976293483445",
+                        "clientOrderId": "W989122965577507",
+                        "symbol": "EURUSD",
+                        "ordType": 0,
+                        "tif": 0,
+                        "expiration": "0",
+                        "volume": "25000",
+                        "limitPrice": "0",
+                        "stopPrice": "0",
+                        "trailDistance": "0",
+                        "fragmentation": "0",
+                        "pegOffset": "0",
+                        "isPeg": false,
+                        "tpPrice": "108560",
+                        "slPrice": "108300",
+                        "comment": ""
+                    },
+                    "receivedTime": "1700210500312",
+                    "requestStatus": 1,
+                    "orderStatus": 4,
+                    "partialVolume": "25000",
+                    "lastPrice": "108406",
+                    "lastUpdated": "1700210500319",
+                    "matchedWith": "0",
+                    "matchedWithLP": true,
+                    "originalPrice": "0",
+                    "systemComment": "",
+                    "notionalValue": "2710100",
+                    "originalOrderType": 0,
+                    "orderProcessingDelay": "0",
+                    "spread": 0
+                },
+                "calculationPrice": "108481",
+                "usd2ClientCurrency": "NOT_SET",
+                "usd2ClientConversion": "0",
+                "usd2ClientDigits": "5",
+                "id": "3421362551727570635"
+            },
+            {
+                "clientId": "268625",
+                "openTime": "1700210314743",
+                "instrument": "EURUSD",
+                "volume": "50000",
+                "openPrice": "108418",
+                "profit": "3150",
+                "commission": "0",
+                "swap": "0",
+                "margin": "54202",
+                "rMask": {
+                    "orderUpdateId": "1699084976292888072",
+                    "simple": {
+                        "clientId": "268625",
+                        "internalOrderId": "1699084976292888063",
+                        "clientOrderId": "W989122965577449",
+                        "symbol": "EURUSD",
+                        "ordType": 0,
+                        "tif": 0,
+                        "expiration": "0",
+                        "volume": "50000",
+                        "limitPrice": "0",
+                        "stopPrice": "0",
+                        "trailDistance": "0",
+                        "fragmentation": "0",
+                        "pegOffset": "0",
+                        "isPeg": false,
+                        "tpPrice": "108560",
+                        "slPrice": "108300",
+                        "comment": ""
+                    },
+                    "receivedTime": "1700210314737",
+                    "requestStatus": 1,
+                    "orderStatus": 4,
+                    "partialVolume": "50000",
+                    "lastPrice": "108418",
+                    "lastUpdated": "1700210314743",
+                    "matchedWith": "0",
+                    "matchedWithLP": true,
+                    "originalPrice": "0",
+                    "systemComment": "",
+                    "notionalValue": "5420200",
+                    "originalOrderType": 0,
+                    "orderProcessingDelay": "0",
+                    "spread": 0
+                },
+                "calculationPrice": "108481",
+                "usd2ClientCurrency": "NOT_SET",
+                "usd2ClientConversion": "0",
+                "usd2ClientDigits": "5",
+                "id": "8238593506140948058"
+            }
+        ]
+    },
+    {
+        "mt_user_id": "270990",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "277376",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "278196",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "284933",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "285242",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "285940",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "287401",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "287745",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "3097",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "3098",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "3114",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "3118",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "289975",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "123598",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "123607",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "123618",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "123628",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "123658",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "123672",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "292328",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "292493",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "123804",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "123863",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "294284",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "295560",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "123959",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "296744",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124009",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124012",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297252",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297258",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297266",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297272",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297276",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297626",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297627",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297629",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297630",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297632",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297633",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297634",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297636",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297635",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297639",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297640",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297641",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297642",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297643",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297645",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297647",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "297987",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "298475",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124107",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124112",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124113",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124115",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124130",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "299483",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124169",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124170",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124171",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124172",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "299691",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124189",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124200",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "299902",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "299968",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "300526",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "300524",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "300637",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "301230",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "301999",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "302002",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "302636",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "124457",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "303234",
+        "broker": "matchtrader",
+        "positions": []
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "clientId": "334852",
+        "broker": "matchtrader",
+        "symbol": "BTCUSD",
+        "volume": "4",
+        "openPrice": "3692851",
+        "currentPrice": "3638416",
+        "profit": "-2177",
+        "swap": "-123",
+        "commission": "18",
+        "openTime": "2023-11-16 14:16:22",
+        "stopLoss": "3538000",
+        "takeProfit": "4000000"
+    },
+    {
+        "clientId": "341845",
+        "broker": "matchtrader",
+        "symbol": "EURUSD",
+        "volume": "50000",
+        "openPrice": "108352",
+        "currentPrice": "108481",
+        "profit": "6450",
+        "swap": "0",
+        "commission": "75",
+        "openTime": "2023-11-17 09:22:43",
+        "stopLoss": "108355",
+        "takeProfit": "108600"
+    },
+    {
+        "clientId": "341449",
+        "broker": "matchtrader",
+        "symbol": "BTCUSD",
+        "volume": "100",
+        "openPrice": "3568615",
+        "currentPrice": "3638293",
+        "profit": "69678",
+        "swap": "-2974",
+        "commission": "446",
+        "openTime": "2023-11-16 20:30:30",
+        "stopLoss": "3520000",
+        "takeProfit": "3702000"
+    },
+    {
+        "clientId": "268625",
+        "broker": "matchtrader",
+        "symbol": "EURUSD",
+        "volume": "25000",
+        "openPrice": "108406",
+        "currentPrice": "108481",
+        "profit": "1875",
+        "swap": "0",
+        "commission": "0",
+        "openTime": "2023-11-17 09:41:40",
+        "stopLoss": "108300",
+        "takeProfit": "108560"
+    },
+    {
+        "clientId": "268625",
+        "broker": "matchtrader",
+        "symbol": "EURUSD",
+        "volume": "50000",
+        "openPrice": "108418",
+        "currentPrice": "108481",
+        "profit": "3150",
+        "swap": "0",
+        "commission": "0",
+        "openTime": "2023-11-17 09:38:34",
+        "stopLoss": "108300",
+        "takeProfit": "108560"
+    }
+]

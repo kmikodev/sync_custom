@@ -1,0 +1,8 @@
+.venv
+*.pyc
+flask_session
+.env*
+__pycache__
+logs
+*.zip
+dump

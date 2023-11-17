@@ -1,0 +1,44 @@
+[
+    {
+        "clientId": 140246,
+        "broker": "metatrader",
+        "symbol": "XAUUSD",
+        "volume": 0.1,
+        "openPrice": 1982.53,
+        "currentPrice": 1982.94,
+        "profit": 4.1,
+        "swap": -3.67,
+        "commission": 0,
+        "openTime": "2023-11-16T17:02:51.0000000+00:00",
+        "stopLoss": 1971.5,
+        "takeProfit": 2000
+    },
+    {
+        "clientId": 140246,
+        "broker": "metatrader",
+        "symbol": "XAUUSD",
+        "volume": 0.05,
+        "openPrice": 1980.98,
+        "currentPrice": 1982.94,
+        "profit": 9.8,
+        "swap": -1.84,
+        "commission": 0,
+        "openTime": "2023-11-16T21:17:22.0000000+00:00",
+        "stopLoss": 1971.5,
+        "takeProfit": 2000
+    },
+    {
+        "clientId": 140457,
+        "broker": "metatrader",
+        "symbol": "XAGUSD",
+        "volume": 0.01,
+        "openPrice": 23.749,
+        "currentPrice": 23.813,
+        "profit": 3.2,
+        "swap": -0.06,
+        "commission": 0,
+        "openTime": "2023-11-16T20:48:18.0000000+00:00",
+        "stopLoss": 21,
+        "takeProfit": 30
+    }
+]

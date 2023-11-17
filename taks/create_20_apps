@@ -1,0 +1,420 @@
+curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-0","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-1","hasPersistentData":false}' \
+  --compressed
+
+curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-2","hasPersistentData":false}' \
+  --compressed
+
+curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-3","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-4","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-5","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-6","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-7","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-8","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-9","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-10","hasPersistentData":false}' \
+  --compressed
+
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-11","hasPersistentData":false}' \
+  --compressed
+
+curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-12","hasPersistentData":false}' \
+  --compressed
+
+curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-13","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-14","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-15","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-16","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-17","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-18","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-19","hasPersistentData":false}' \
+  --compressed
+
+  curl 'https://captain.cap.cryptofundtrader.com/api/v2/user/apps/appDefinitions/register?detached=1' \
+  -H 'Accept: application/json, text/plain, */*' \
+  -H 'Accept-Language: es-ES,es;q=0.9,en;q=0.8,it;q=0.7' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json;charset=UTF-8' \
+  -H 'Cookie: _ga=GA1.1.1884929809.1689850812; tk_or=%22https%3A%2F%2Fwww.google.com%2F%22; tk_ai=l%2FUl027VTdbQmPcz1wWhkQB2; _ga_W3NWLWE5R0=GS1.1.1690809742.4.1.1690809743.0.0.0; tk_lr=%22%22; tk_r3d=%22%22; _ga_SRLMF0N24J=GS1.1.1692280688.20.0.1692280689.0.0.0; captainCookieAuth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.jEfNBZamGRnk5y3asBQtrpq0s0Ii5C-OH_p-YdSZaZM' \
+  -H 'Origin: https://captain.cap.cryptofundtrader.com' \
+  -H 'Referer: https://captain.cap.cryptofundtrader.com/' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-captain-auth: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Im5hbWVzcGFjZSI6ImNhcHRhaW4iLCJ0b2tlblZlcnNpb24iOiI3Y2NhZThhMi1iMTk5LTQ4ZmQtYmM1OC1jNDNmZTdmNmUxYjYifSwiaWF0IjoxNjkyNDAxNzA5LCJleHAiOjE2OTQxMjk3MDl9.uk0ZlTqzthQwON4tDnw7iRVK7UqMw5s7vTYxOQYC2W8' \
+  -H 'x-namespace: captain' \
+  --data-raw '{"appName":"sync-20","hasPersistentData":false}' \
+  --compressed

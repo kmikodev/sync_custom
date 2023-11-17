@@ -1,0 +1,5 @@
+caprover deploy -h https://captain.cap.cryptofundtrader.com/ -p 9xDvmyAMowSIOAj -b master -a sync-0
+caprover deploy -h https://captain.cap.cryptofundtrader.com/ -p 9xDvmyAMowSIOAj -b master -a sync-1
+caprover deploy -h https://captain.cap.cryptofundtrader.com/ -p 9xDvmyAMowSIOAj -b master -a sync-2
+caprover deploy -h https://captain.cap.cryptofundtrader.com/ -p 9xDvmyAMowSIOAj -b master -a sync-3
+caprover deploy -h https://captain.cap.cryptofundtrader.com/ -p 9xDvmyAMowSIOAj -b master -a sync-dev

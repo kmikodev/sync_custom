@@ -1,0 +1,108 @@
+[
+    {
+        "mt_user_id": "140246",
+        "broker": "metatrader",
+        "positions": [
+            {
+                "action": "Buy",
+                "activation": "None",
+                "reason": "Mobile",
+                "position": 2757159,
+                "login": 140246,
+                "symbol": "XAUUSD",
+                "volume": 0.1,
+                "profit": 4.1,
+                "swap": -3.67,
+                "comment": null,
+                "contractSize": 100,
+                "priceCurrent": 1982.94,
+                "priceOpen": 1982.53,
+                "dateCreate": "2023-11-16T17:02:51.0000000+00:00",
+                "stopLoss": 1971.5,
+                "takeProfit": 2000
+            },
+            {
+                "action": "Buy",
+                "activation": "None",
+                "reason": "Mobile",
+                "position": 2763260,
+                "login": 140246,
+                "symbol": "XAUUSD",
+                "volume": 0.05,
+                "profit": 9.8,
+                "swap": -1.84,
+                "comment": null,
+                "contractSize": 100,
+                "priceCurrent": 1982.94,
+                "priceOpen": 1980.98,
+                "dateCreate": "2023-11-16T21:17:22.0000000+00:00",
+                "stopLoss": 1971.5,
+                "takeProfit": 2000
+            }
+        ]
+    },
+    {
+        "mt_user_id": "140247",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "140291",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "140383",
+        "broker": "metatrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "140457",
+        "broker": "metatrader",
+        "positions": [
+            {
+                "action": "Buy",
+                "activation": "None",
+                "reason": "Mobile",
+                "position": 2762905,
+                "login": 140457,
+                "symbol": "XAGUSD",
+                "volume": 0.01,
+                "profit": 3.2,
+                "swap": -0.06,
+                "comment": null,
+                "contractSize": 5000,
+                "priceCurrent": 23.813,
+                "priceOpen": 23.749,
+                "dateCreate": "2023-11-16T20:48:18.0000000+00:00",
+                "stopLoss": 21,
+                "takeProfit": 30
+            }
+        ]
+    },
+    {
+        "mt_user_id": "343183",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "343193",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "343222",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "343227",
+        "broker": "matchtrader",
+        "positions": []
+    },
+    {
+        "mt_user_id": "343239",
+        "broker": "matchtrader",
+        "positions": []
+    }
+]
